@@ -1,0 +1,24 @@
+/* колір основного тексту color: #212121 */
+/* колір контактів та параграфа color: #757575 */
+/* колір логотипу color: #2196F3; color: #000000; */
+/* колір логотипу внизу сторінки color: #2196F3; color: #FFFFFF;*/
+/* колір адреси color: #FFFFFF;*/
+/* колір контактів в підвалі color: rgba(255, 255, 255, 0.6);*/
+/* основний колір фону #FFFFFF; */
+/* колір фону півалу #2F303A; */
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+.logo {
+  color: #000000;
+}
+/* Site nav */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
