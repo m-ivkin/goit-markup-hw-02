@@ -1,0 +1,77 @@
+/* колір основного тексту color: #212121 */
+/* колір контактів та параграфа color: #757575 */
+/* колір логотипу color: #2196F3; color: #000000; */
+/* колір логотипу внизу сторінки color: #2196F3; color: #FFFFFF;*/
+/* колір адреси color: #FFFFFF;*/
+/* колір контактів в підвалі color: rgba(255, 255, 255, 0.6);*/
+/* основний колір фону #FFFFFF; */
+/* колір фону півалу #2F303A; */
+
+:root {
+  --primary-text-color: #212121;
+  --paragraph-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --logo-color: #000000;
+  --footer-backgroung-color: #2f303a;
+  --address-link: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.header-logo {
+  color: var(--logo-color);
+}
+/* Site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Header contacts */
+.contacts .contacts-link {
+  color: var(--paragraph-text-color);
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+  color: var(--accent-color);
+}
+/* Button */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Portfolio */
+.portfolio-paragraph {
+  color: var(--paragraph-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-backgroung-color);
+}
+.footer-logo {
+  color: var(--primary-white-color);
+}
+.address-hyperlink {
+  color: var(--primary-white-color);
+}
+.address-link {
+  color: var(--address-link);
+}
