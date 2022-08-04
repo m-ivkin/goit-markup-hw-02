@@ -20,16 +20,32 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
 }
+/* Logo */
 .header-logo {
   color: var(--logo-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.accent {
+  color: var(--accent-color);
 }
 /* Site nav */
 .site-nav .link {
   color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -41,6 +57,12 @@ body {
 /* Header contacts */
 .contacts .contacts-link {
   color: var(--paragraph-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 .contacts .contacts-link:hover,
 .contacts .contacts-link:focus {
@@ -50,6 +72,11 @@ body {
 .button {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 .button:hover,
 .button:focus {
@@ -58,8 +85,21 @@ body {
 }
 
 /* Portfolio */
+.primary-title {
+  display: none;
+}
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 .portfolio-paragraph {
   color: var(--paragraph-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* Footer */
@@ -68,10 +108,25 @@ body {
 }
 .footer-logo {
   color: var(--primary-white-color);
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .address-hyperlink {
   color: var(--primary-white-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
 }
 .address-link {
   color: var(--address-link);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
 }
