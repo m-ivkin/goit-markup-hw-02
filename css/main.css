@@ -61,6 +61,8 @@ body {
 /* Studio */
 .title {
   background-color: var(--footer-backgroung-color);
+}
+.title-header {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
